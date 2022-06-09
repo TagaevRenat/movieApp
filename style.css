@@ -1,0 +1,56 @@
+.row {
+    margin: 10px;
+    justify-content: center;
+    height: auto;
+}
+
+.countainer {
+    height: auto;
+    padding-top: 1px;
+}
+
+.col-xs-12 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.fs-1 {
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 100vw;
+}
+
+.card-img-top {
+    height: 100%;
+    width: 100%;
+}
+
+.container-fluid {
+    margin-bottom: 5px;
+}
+
+.rowModal {
+    margin: 0px;
+}
+
+.modal-header,
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal,
+.countainer {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    text-align: justify;
+}
