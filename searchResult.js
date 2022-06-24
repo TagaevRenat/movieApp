@@ -16,6 +16,7 @@ window.onload = function () {
 
 function loadPosters(genreURL) {
     $.get(genreURL, function (data) {
+        console.log(data)
         if (data.results.length == 0) {
             $('.text').text('Sorry, no results :( Try changing the query')
         }

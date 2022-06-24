@@ -18,7 +18,7 @@
 <body class="bg-dark">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient">
         <div class="container-fluid">
-            <div class="navbar-brand">RMOVIES</div>
+            <a class="navbar-brand" aria-current="page" href="index.html">RMOVIES</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -26,16 +26,50 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="genreCollection.html">Genre collections</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Genre collections
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" id="28" href="genreCollection.html?id=28">Action</a>
+                            </li>
+                            <li><a class="dropdown-item" id="12" href="genreCollection.html?id=12">Adventure</a></li>
+                            <li><a class="dropdown-item" id="16" href="genreCollection.html?id=16">Animation</a></li>
+                            <li><a class="dropdown-item" id="35" href="genreCollection.html?id=35">Comedy</a>
+                            </li>
+                            <li><a class="dropdown-item" id="80" href="genreCollection.html?id=80">Crime</a></li>
+                            <li><a class="dropdown-item" id="99" href="genreCollection.html?id=99">Documentary</a></li>
+                            <li><a class="dropdown-item" id="18" href="genreCollection.html?id=18">Drama</a></li>
+                            <li><a class="dropdown-item" id="10751" href="genreCollection.html?id=10751">Family</a>
+                            </li>
+                            <li><a class="dropdown-item" id="14" href="genreCollection.html?id=14">Fantasy</a>
+                            </li>
+                            <li><a class="dropdown-item" id="36" href="genreCollection.html?id=36">History</a>
+                            </li>
+                            <li><a class="dropdown-item" id="27" href="genreCollection.html?id=27">Horror</a>
+                            </li>
+                            <li><a class="dropdown-item" id="10402" href="genreCollection.html?id=10402">Music</a>
+                            </li>
+                            <li><a class="dropdown-item" id="9648" href="genreCollection.html?id=9648">Mystery</a></li>
+                            <li><a class="dropdown-item" id="10749" href="genreCollection.html?id=10749">Romance</a>
+                            </li>
+                            <li><a class="dropdown-item" id="878" href="genreCollection.html?id=878">Science Fiction</a>
+                            </li>
+                            <li><a class="dropdown-item" id="10770" href="genreCollection.html?id=10770">TV
+                                    Movie</a>
+                            </li>
+                            <li><a class="dropdown-item" id="53" href="genreCollection.html?id=53">Thriller</a>
+                            </li>
+                            <li><a class="dropdown-item" id="10752" href="genreCollection.html?id=10752">War</a>
+                            </li>
+                            <li><a class="dropdown-item" id="37" href="genreCollection.html?id=37">Western</a>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
                 <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" required
-                        minlength="1">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
             </div>

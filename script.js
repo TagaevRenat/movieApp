@@ -58,6 +58,7 @@ function loadModal(e = 1, url = 'https://api.themoviedb.org/3/movie/top_rated?ap
         $('.genre').html(`<b>Genre:</b> ${currentGenre}`)
     })
     myModal.show()
+
 }
 
 

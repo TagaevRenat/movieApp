@@ -54,3 +54,14 @@
 .info {
     text-align: justify;
 }
+
+.dropdown {
+    justify-content: flex-start;
+}
+
+.fs-2 {
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 100vw;
+    text-align: center;
+}

@@ -3,7 +3,6 @@ window.onload = function () {
     let id = window.location.search.slice(4)
 
     $.get(`https://api.themoviedb.org/3/movie/${id}?api_key=b40bcd1b7a69127917daf2a39a52c832&language=en-US`, function (data) {
-        console.log(data)
         $('.card-header').html(`${data.title}`)
         $('.overviewInfo').html(`<b>Overview: </b>${data.overview}`)
         if (data.poster_path == null) {
